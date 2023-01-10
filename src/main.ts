@@ -19,9 +19,9 @@ async function bootstrap() {
   );
   
   const config = new DocumentBuilder()
-    .setTitle('Bank Scrap')
-    .setDescription('Bank scrap automation.')
-    .setVersion('2.0')
+    .setTitle('Title Application')
+    .setDescription('Description.')
+    .setVersion('1.0.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('swagger', app, document);
