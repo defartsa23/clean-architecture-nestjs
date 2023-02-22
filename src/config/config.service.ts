@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common";
-import { NestConfig } from "src/dataprovider/config/nest.interface";
-import { DatabaseConfig } from "src/dataprovider/config/database.interface";
-import { RedisConfig } from "src/dataprovider/config/redis.interface";
+import { NestConfig } from "src/provider/config/nest.interface";
+import { DatabaseConfig } from "src/provider/config/database.interface";
+import { RedisConfig } from "src/provider/config/redis.interface";
 import { ConfigService } from "@nestjs/config";
 import { NodeEnvironmentEnum } from "src/delivery/enums/nodeEnvironment.enum";
 import * as dotenv from 'dotenv';
